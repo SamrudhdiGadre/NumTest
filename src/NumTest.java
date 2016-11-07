@@ -7,8 +7,13 @@ public class NumTest {
 		x = x + 10;
 		System.out.println("Addition:" + x);
 		
-		int y = 5;
+		int y = 10;
 		y = x * y;
 		System.out.println("Multiplication:" + y);
+		
+		int z = 5;
+		z = y / z ;
+		System.out.println("Division:" + z);
+		
 	}
 }
