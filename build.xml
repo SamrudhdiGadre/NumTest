@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project basedir="." default="build" name="Number_Test">
+    <property environment="env"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="build.dir" value="bin"/>
+    <property name="src.dir" value="src"/>
+	
+    <path id="Number_Test.classpath">
+        <pathelement location="${build.dir}"/>
+    </path>
+	
+    <target name="init">
+        <mkdir dir="${build.dir}"/>
+    </target>
+    
+	<target name="clean">
+        <delete dir="${build.dir}"/>
+    </target>
+    
+    <target name="build" depends="init">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac srcdir="${src.dir}" debug="ON" destdir="${build.dir}" includeantruntime="false" >
+            <classpath refid="Number_Test.classpath"/>
+        </javac>
+    </target>
+
+</project>
