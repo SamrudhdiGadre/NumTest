@@ -2,6 +2,7 @@
 public class NumTest {
 
 	public static void main(String[] args){
+		System.out.println("Hello Maths");
 		
 		int x = 5;
 		x = x + 10;
