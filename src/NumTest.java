@@ -15,7 +15,7 @@ public class NumTest {
 		z = y / z ;
 		System.out.println("Division:" + z);
 		
-		System.out.println("Lets hope it works!!");
+		System.out.println("Testing");
 		
 	}
 }
