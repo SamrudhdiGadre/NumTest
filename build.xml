@@ -4,29 +4,51 @@
               To include a user specific buildfile here, simply create one in the same
               directory with the processing instruction <?eclipse.ant.import?>
               as the first entry and export the buildfile again. -->
-<project basedir="." default="build" name="Number_Test">
+
+<project basedir="." default="test" name="Number_Test">
     <property environment="env"/>
     <property name="debuglevel" value="source,lines,vars"/>
     <property name="build.dir" value="bin"/>
     <property name="src.dir" value="src"/>
+	<!-- <property name = "test.dir" value="test" /> -->
+	<property name = "full-compile" value = "true" /> 
 	
     <path id="Number_Test.classpath">
         <pathelement location="${build.dir}"/>
     </path>
 	
+	<path id = "classpath.test">
+	      <pathelement location = "C:\JUnit\junit-4.10.jar" />
+	      <!-- <pathelement location = "${test.dir}" /> -->
+	      <pathelement location = "${src.dir}" />
+	      <path refid = "Number_Test.classpath" />
+	   </path>
+	
     <target name="init">
         <mkdir dir="${build.dir}"/>
+    <!--	<mkdir dir="${test.dir}"/> -->
     </target>
     
 	<target name="clean">
         <delete dir="${build.dir}"/>
+	<!--	<delete verbose = "${full-compile}">
+		         <fileset dir = "${test.dir}" includes = "**/*.class" />
+		      </delete> -->
     </target>
     
     <target name="build" depends="init">
         <echo message="${ant.project.name}: ${ant.file}"/>
-        <javac srcdir="${src.dir}" debug="ON" destdir="${build.dir}" includeantruntime="false" >
-            <classpath refid="Number_Test.classpath"/>
+        <javac srcdir="${src.dir}" debug="ON" destdir="${build.dir}" includeantruntime="false" verbose="${full-compile}" >
+            <classpath refid="classpath.test"/>
         </javac>
     </target>
+	
+	<target name = "test" depends = "build">
+	      <junit>
+	         <classpath refid = "classpath.test" />
+	         <formatter type = "brief" usefile = "false" />
+	         <test name = "TestJunit" />
+	      </junit>
+	   </target>
 
 </project>

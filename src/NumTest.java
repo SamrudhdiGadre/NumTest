@@ -1,7 +1,7 @@
 
 public class NumTest {
 
-	public static void main(String[] args){
+/*	public static void main(String[] args){
 				
 		int x = 5;
 		x = x + 10;
@@ -17,5 +17,6 @@ public class NumTest {
 		
 		System.out.println("Testing");
 		
-	}
+	} */
+	
 }
