@@ -42,20 +42,25 @@
     </target>
 	
 	<target name = "test" depends = "build">
-	      <junit>
+	      <junit printsummary="on" >
 	         <classpath refid = "classpath.test" />
-	         <formatter type = "brief" usefile = "false" />
-	         <test name = "TestJunit" />
-	      	 <test name = "TestRunner" />
+	         <formatter type = "xml" usefile = "false" />
+	      	<batchtest todir="${test.dir}">
+	      		<fileset dir="${src.dir}">
+	      	    	<include name="**/Test*.java" />
+	      	    </fileset>
+	      	 </batchtest>
+	      <!--   <test name = "TestJunit" />
+	      	 <test name = "TestRunner" /> -->
 	      </junit>
 	   </target>
 	
 	<target name="test-reports" depends="test">
-	    <junitreport tofile="TESTS-TestSuites.xml" todir="${test.dir}">
+	    <junitreport todir="${test.dir}">
 	        <fileset dir="${test.dir}">
 	            <include name="TEST-*.xml" />
 	        </fileset>
-	        <report format="frames" todir="${test.dir}" />
+	        <report format="frames" todir="${test.dir}/reports" />
 	    </junitreport>
 	</target>
 

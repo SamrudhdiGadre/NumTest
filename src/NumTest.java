@@ -18,5 +18,21 @@ public static void main(String[] args){
 		System.out.println("Testing");
 		
 	} 
+
+public int addNum(int x, int y){
+	return (x + y);
+}
+
+public int substractNum(int x, int y){
+	return (x - y);
+}
 	
+public int multiplyNum(int x, int y){
+	return (x * y);
+}
+
+public int divisionNum(int x, int y){
+	return (x/y);
+}
+
 }
