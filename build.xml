@@ -31,9 +31,7 @@
     
 	<target name="clean">
         <delete dir="${build.dir}"/>
-		<delete verbose = "${full-compile}">
-		         <fileset dir = "${test.dir}" includes = "**/*.class" />
-		      </delete>
+		<delete dir="${test.dir}"/>
     </target>
     
     <target name="build" depends="init">
@@ -57,7 +55,7 @@
 	        <fileset dir="${test.dir}">
 	            <include name="TEST-*.xml" />
 	        </fileset>
-	        <report format="frames" todir="${test.dir}/reports" />
+	        <report format="frames" todir="${test.dir}" />
 	    </junitreport>
 	</target>
 
