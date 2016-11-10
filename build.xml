@@ -41,7 +41,7 @@
         </javac>
     </target>
 	
-	<!-- <target name = "test" depends = "build">
+	 <target name = "test" depends = "build">
 	      <junit printsummary="yes" haltonerror="yes" haltonfailure="yes">
 	         <classpath refid = "classpath.test" />
 	      	 <formatter type="plain" usefile="false"/>
@@ -52,7 +52,7 @@
 	      	    </fileset>
 	      	 </batchtest>
 	      </junit>
-	   </target> -->
+	   </target> 
 	
 	<target name="test-reports" depends="test">
 		 <mkdir dir="${test.dir}/reports"/>
