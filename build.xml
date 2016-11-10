@@ -42,10 +42,11 @@
     </target>
 	
 	<target name = "test" depends = "build">
-	      <junit printsummary="on" >
+	      <junit printsummary="yes" haltonerror="yes" haltonfailure="yes">
 	         <classpath refid = "classpath.test" />
-	         <formatter type = "xml" usefile = "false" />
-	      	<batchtest todir="${test.dir}">
+	      	 <formatter type="plain" usefile="false"/>
+	      	 <formatter type="xml"/>
+	         <batchtest todir="${test.dir}">
 	      		<fileset dir="${src.dir}">
 	      	    	<include name="**/Test*.java" />
 	      	    </fileset>
@@ -56,11 +57,12 @@
 	   </target>
 	
 	<target name="test-reports" depends="test">
+		 <mkdir dir="${test.dir}/reports"/>
 	    <junitreport todir="${test.dir}">
 	        <fileset dir="${test.dir}">
 	            <include name="TEST-*.xml" />
 	        </fileset>
-	        <report format="frames" todir="${test.dir}/reports" />
+	        <report todir="${test.dir}/reports" />
 	    </junitreport>
 	</target>
 
