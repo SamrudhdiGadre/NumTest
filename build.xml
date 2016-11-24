@@ -55,7 +55,7 @@
 	    </target>
 
 	
-	 <target name = "test" depends = "jar">
+	 <target name = "test" depends = "build">
 	      <junit printsummary="yes" haltonerror="yes" haltonfailure="yes">
 	         <classpath refid = "classpath.test" />
 	      	 <formatter type="plain" usefile="false"/>
