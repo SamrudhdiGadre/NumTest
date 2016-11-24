@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="DESKTOP-BOUTNDG" name="TestRunner" skipped="0" tests="1" time="0.103" timestamp="2016-11-24T05:49:44">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-BOUTNDG" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/C:/Users/anlgad/Desktop/Samrudhdi/eclipse-jee-juno-SR1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/templates/" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="env.JUNIT_HOME" value="C:\JUnit" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_111\lib\resources.jar;C:\Program Files\Java\jre1.8.0_111\lib\rt.jar;C:\Program Files\Java\jre1.8.0_111\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_111\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_111\lib\jce.jar;C:\Program Files\Java\jre1.8.0_111\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_111\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_111\classes" />
+    <property name="env.COMPUTERNAME" value="DESKTOP-BOUTNDG" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Ant\apache-ant-1.9.7" />
+    <property name="jar.dir" value="bin/jar" />
+    <property name="java.runtime.version" value="1.8.0_111-b14" />
+    <property name="env.HOMEPATH" value="\Users\anlgad" />
+    <property name="user.name" value="anlgad" />
+    <property name="build.dir" value="bin" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_111\bin" />
+    <property name="ant.project.default-target" value="test-reports" />
+    <property name="ant.project.name" value="Number_Test" />
+    <property name="java.version" value="1.8.0_111" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 76 Stepping 3, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.TEMP" value="C:\Users\anlgad\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_111\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="classes.dir" value="bin/classes" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_111" />
+    <property name="env.PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ServiceManagement;C:\opscode\chefdk\modules\" />
+    <property name="env.APPDATA" value="C:\Users\anlgad\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="main-class" value="NumTest" />
+    <property name="ant.file" value="C:\Users\anlgad\Desktop\Samrudhdi\Devops\Javaeg\Number_Test\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="env.configsetroot" value="C:\WINDOWS\ConfigSetRoot" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.111-b14" />
+    <property name="user.variant" value="" />
+    <property name="env.USERPROFILE" value="C:\Users\anlgad" />
+    <property name="ant.library.dir" value="C:\Ant\apache-ant-1.9.7\lib" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_111" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\anlgad\AppData\Local\Temp" />
+    <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="eclipse.pdebuild.scripts" value="/C:/Users/anlgad/Desktop/Samrudhdi/eclipse-jee-juno-SR1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/scripts/" />
+    <property name="user.home" value="C:\Users\anlgad" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="test.dir" value="test" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.library.path" value="C:\Users\anlgad\Desktop\Samrudhdi\eclipse-jee-juno-SR1-win32-x86_64\eclipse;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_111/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_111/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_111/bin/../jre/lib/amd64;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\Program Files (x86)\Lenovo\FusionEngine;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\TXE Components\DAL\;C:\Program Files (x86)\Intel\TXE Components\DAL\;C:\Program Files\Intel\TXE Components\IPT\;C:\Program Files (x86)\Intel\TXE Components\IPT\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI\wbin;C:\opscode\chefdk\bin\;C:\Program Files\nodejs\;C:\Ant\apache-ant-1.9.7\bin;C:\Program Files\Java\jdk1.8.0_111\bin;C:\JUnit\junit-4.10.jar;C:\Program Files (x86)\Skype\Phone\;C:\Users\anlgad\AppData\Local\atom\bin;C:\Users\anlgad\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\anlgad\Desktop\Samrudhdi\eclipse-jee-juno-SR1-win32-x86_64\eclipse;;.;C:\Users\anlgad\Desktop\Samrudhdi\eclipse-jee-juno-SR1-win32-x86_64\eclipse\configuration\org.eclipse.osgi\bundles\628\1\.cp" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="2" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="ant.file.Number_Test" value="C:\Users\anlgad\Desktop\Samrudhdi\Devops\Javaeg\Number_Test\build.xml" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1479966575027 -Declipse.connect.port=49460 -Declipse.pdebuild.home=/C:/Users/anlgad/Desktop/Samrudhdi/eclipse-jee-juno-SR1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/./ -Declipse.pdebuild.scripts=/C:/Users/anlgad/Desktop/Samrudhdi/eclipse-jee-juno-SR1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/scripts/ -Declipse.pdebuild.templates=/C:/Users/anlgad/Desktop/Samrudhdi/eclipse-jee-juno-SR1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/templates/ -Dant.home=C:\Ant\apache-ant-1.9.7 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\Users\anlgad\Desktop\Samrudhdi\Devops\Javaeg\Number_Test\build.xml" />
+    <property name="java.class.path" value="C:\Ant\apache-ant-1.9.7\lib\ant-antlr.jar;C:\Ant\apache-ant-1.9.7\lib\ant-apache-bcel.jar;C:\Ant\apache-ant-1.9.7\lib\ant-apache-bsf.jar;C:\Ant\apache-ant-1.9.7\lib\ant-apache-log4j.jar;C:\Ant\apache-ant-1.9.7\lib\ant-apache-oro.jar;C:\Ant\apache-ant-1.9.7\lib\ant-apache-regexp.jar;C:\Ant\apache-ant-1.9.7\lib\ant-apache-resolver.jar;C:\Ant\apache-ant-1.9.7\lib\ant-apache-xalan2.jar;C:\Ant\apache-ant-1.9.7\lib\ant-commons-logging.jar;C:\Ant\apache-ant-1.9.7\lib\ant-commons-net.jar;C:\Ant\apache-ant-1.9.7\lib\ant-jai.jar;C:\Ant\apache-ant-1.9.7\lib\ant-javamail.jar;C:\Ant\apache-ant-1.9.7\lib\ant-jdepend.jar;C:\Ant\apache-ant-1.9.7\lib\ant-jmf.jar;C:\Ant\apache-ant-1.9.7\lib\ant-jsch.jar;C:\Ant\apache-ant-1.9.7\lib\ant-junit.jar;C:\Ant\apache-ant-1.9.7\lib\ant-junit4.jar;C:\Ant\apache-ant-1.9.7\lib\ant-launcher.jar;C:\Ant\apache-ant-1.9.7\lib\ant-netrexx.jar;C:\Ant\apache-ant-1.9.7\lib\ant-swing.jar;C:\Ant\apache-ant-1.9.7\lib\ant-testutil.jar;C:\Ant\apache-ant-1.9.7\lib\ant.jar;C:\Users\anlgad\Desktop\Samrudhdi\eclipse-jee-juno-SR1-win32-x86_64\eclipse\configuration\org.eclipse.osgi\bundles\57\1\.cp\lib\antdebug.jar;C:\Users\anlgad\Desktop\Samrudhdi\eclipse-jee-juno-SR1-win32-x86_64\eclipse\configuration\org.eclipse.osgi\bundles\57\1\.cp\lib\remote.jar;C:\Users\anlgad\Desktop\Samrudhdi\eclipse-jee-juno-SR1-win32-x86_64\eclipse\configuration\org.eclipse.osgi\bundles\58\1\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.8.0_111\lib\tools.jar;C:\Users\anlgad\Desktop\Samrudhdi\eclipse-jee-juno-SR1-win32-x86_64\eclipse\plugins\org.eclipse.swt.win32.win32.x86_64_3.100.1.v4234e.jar" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.LOGONSERVER" value="\\DESKTOP-BOUTNDG" />
+    <property name="env.windir" value="C:\WINDOWS" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="C:\Ant\apache-ant-1.9.7" />
+    <property name="ant.file.type.Number_Test" value="file" />
+    <property name="env.PROCESSOR_REVISION" value="4c03" />
+    <property name="eclipse.pdebuild.home" value="/C:/Users/anlgad/Desktop/Samrudhdi/eclipse-jee-juno-SR1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/./" />
+    <property name="java.io.tmpdir" value="C:\Users\anlgad\AppData\Local\Temp\" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SystemRoot" value="C:\WINDOWS" />
+    <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_111\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Users\anlgad\Desktop\Samrudhdi\Devops\Javaeg\Number_Test" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\anlgad\AppData\Local" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.PATHEXT" value=".SH;.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;" />
+    <property name="env.Path" value="C:/Program Files/Java/jdk1.8.0_111/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_111/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_111/bin/../jre/lib/amd64;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\Program Files (x86)\Lenovo\FusionEngine;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\TXE Components\DAL\;C:\Program Files (x86)\Intel\TXE Components\DAL\;C:\Program Files\Intel\TXE Components\IPT\;C:\Program Files (x86)\Intel\TXE Components\IPT\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI\wbin;C:\opscode\chefdk\bin\;C:\Program Files\nodejs\;C:\Ant\apache-ant-1.9.7\bin;C:\Program Files\Java\jdk1.8.0_111\bin;C:\JUnit\junit-4.10.jar;C:\Program Files (x86)\Skype\Phone\;C:\Users\anlgad\AppData\Local\atom\bin;C:\Users\anlgad\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\anlgad\Desktop\Samrudhdi\eclipse-jee-juno-SR1-win32-x86_64\eclipse;" />
+    <property name="basedir" value="C:\Users\anlgad\Desktop\Samrudhdi\Devops\Javaeg\Number_Test" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Ant\apache-ant-1.9.7\lib\ant.jar" />
+    <property name="env.USERNAME" value="anlgad" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="env.USERDOMAIN" value="DESKTOP-BOUTNDG" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="src.dir" value="src" />
+    <property name="ant.project.invoked-targets" value="test-reports" />
+    <property name="full-compile" value="true" />
+    <property name="env.VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="TestRunner" name="printResult" time="0.063" />
+  <system-out><![CDATA[Inside testPrintMessage
+Hello World
+TestRunner Result - 
+true
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
