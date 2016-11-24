@@ -68,7 +68,7 @@
 	      </junit>
 	   </target> 
 	
-	<target name="test-reports" depends="test">
+	<target name="test-reports" depends="test, jar">
 		 <mkdir dir="${test.dir}/reports"/>
 	    <junitreport todir="${test.dir}">
 	        <fileset dir="${test.dir}">

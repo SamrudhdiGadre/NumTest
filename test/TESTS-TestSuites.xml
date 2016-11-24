@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="DESKTOP-BOUTNDG" id="0" name="TestJunit" package="" skipped="0" tests="1" time="0.127" timestamp="2016-11-24T05:49:44">
+  <testsuite errors="0" failures="0" hostname="DESKTOP-BOUTNDG" id="0" name="TestJunit" package="" skipped="0" tests="1" time="0.143" timestamp="2016-11-24T06:08:45">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -158,7 +158,7 @@
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
 
-          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1479966575027 -Declipse.connect.port=49460 -Declipse.pdebuild.home=/C:/Users/anlgad/Desktop/Samrudhdi/eclipse-jee-juno-SR1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/./ -Declipse.pdebuild.scripts=/C:/Users/anlgad/Desktop/Samrudhdi/eclipse-jee-juno-SR1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/scripts/ -Declipse.pdebuild.templates=/C:/Users/anlgad/Desktop/Samrudhdi/eclipse-jee-juno-SR1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/templates/ -Dant.home=C:\Ant\apache-ant-1.9.7 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\Users\anlgad\Desktop\Samrudhdi\Devops\Javaeg\Number_Test\build.xml" />
+          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1479967723020 -Declipse.connect.port=50099 -Declipse.pdebuild.home=/C:/Users/anlgad/Desktop/Samrudhdi/eclipse-jee-juno-SR1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/./ -Declipse.pdebuild.scripts=/C:/Users/anlgad/Desktop/Samrudhdi/eclipse-jee-juno-SR1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/scripts/ -Declipse.pdebuild.templates=/C:/Users/anlgad/Desktop/Samrudhdi/eclipse-jee-juno-SR1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/templates/ -Dant.home=C:\Ant\apache-ant-1.9.7 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\Users\anlgad\Desktop\Samrudhdi\Devops\Javaeg\Number_Test\build.xml" />
 
           <property name="java.class.path" value="C:\Ant\apache-ant-1.9.7\lib\ant-antlr.jar;C:\Ant\apache-ant-1.9.7\lib\ant-apache-bcel.jar;C:\Ant\apache-ant-1.9.7\lib\ant-apache-bsf.jar;C:\Ant\apache-ant-1.9.7\lib\ant-apache-log4j.jar;C:\Ant\apache-ant-1.9.7\lib\ant-apache-oro.jar;C:\Ant\apache-ant-1.9.7\lib\ant-apache-regexp.jar;C:\Ant\apache-ant-1.9.7\lib\ant-apache-resolver.jar;C:\Ant\apache-ant-1.9.7\lib\ant-apache-xalan2.jar;C:\Ant\apache-ant-1.9.7\lib\ant-commons-logging.jar;C:\Ant\apache-ant-1.9.7\lib\ant-commons-net.jar;C:\Ant\apache-ant-1.9.7\lib\ant-jai.jar;C:\Ant\apache-ant-1.9.7\lib\ant-javamail.jar;C:\Ant\apache-ant-1.9.7\lib\ant-jdepend.jar;C:\Ant\apache-ant-1.9.7\lib\ant-jmf.jar;C:\Ant\apache-ant-1.9.7\lib\ant-jsch.jar;C:\Ant\apache-ant-1.9.7\lib\ant-junit.jar;C:\Ant\apache-ant-1.9.7\lib\ant-junit4.jar;C:\Ant\apache-ant-1.9.7\lib\ant-launcher.jar;C:\Ant\apache-ant-1.9.7\lib\ant-netrexx.jar;C:\Ant\apache-ant-1.9.7\lib\ant-swing.jar;C:\Ant\apache-ant-1.9.7\lib\ant-testutil.jar;C:\Ant\apache-ant-1.9.7\lib\ant.jar;C:\Users\anlgad\Desktop\Samrudhdi\eclipse-jee-juno-SR1-win32-x86_64\eclipse\configuration\org.eclipse.osgi\bundles\57\1\.cp\lib\antdebug.jar;C:\Users\anlgad\Desktop\Samrudhdi\eclipse-jee-juno-SR1-win32-x86_64\eclipse\configuration\org.eclipse.osgi\bundles\57\1\.cp\lib\remote.jar;C:\Users\anlgad\Desktop\Samrudhdi\eclipse-jee-juno-SR1-win32-x86_64\eclipse\configuration\org.eclipse.osgi\bundles\58\1\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.8.0_111\lib\tools.jar;C:\Users\anlgad\Desktop\Samrudhdi\eclipse-jee-juno-SR1-win32-x86_64\eclipse\plugins\org.eclipse.swt.win32.win32.x86_64_3.100.1.v4234e.jar" />
 
@@ -244,7 +244,7 @@
 
       </properties>
 
-      <testcase classname="TestJunit" name="testPrintMessage" time="0.012" />
+      <testcase classname="TestJunit" name="testPrintMessage" time="0.013" />
 
       <system-out><![CDATA[Inside testPrintMessage
 Hello World
@@ -253,7 +253,7 @@ Hello World
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="DESKTOP-BOUTNDG" id="1" name="TestRunner" package="" skipped="0" tests="1" time="0.103" timestamp="2016-11-24T05:49:44">
+  <testsuite errors="0" failures="0" hostname="DESKTOP-BOUTNDG" id="1" name="TestRunner" package="" skipped="0" tests="1" time="0.05" timestamp="2016-11-24T06:08:45">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -411,7 +411,7 @@ Hello World
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
 
-          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1479966575027 -Declipse.connect.port=49460 -Declipse.pdebuild.home=/C:/Users/anlgad/Desktop/Samrudhdi/eclipse-jee-juno-SR1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/./ -Declipse.pdebuild.scripts=/C:/Users/anlgad/Desktop/Samrudhdi/eclipse-jee-juno-SR1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/scripts/ -Declipse.pdebuild.templates=/C:/Users/anlgad/Desktop/Samrudhdi/eclipse-jee-juno-SR1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/templates/ -Dant.home=C:\Ant\apache-ant-1.9.7 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\Users\anlgad\Desktop\Samrudhdi\Devops\Javaeg\Number_Test\build.xml" />
+          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1479967723020 -Declipse.connect.port=50099 -Declipse.pdebuild.home=/C:/Users/anlgad/Desktop/Samrudhdi/eclipse-jee-juno-SR1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/./ -Declipse.pdebuild.scripts=/C:/Users/anlgad/Desktop/Samrudhdi/eclipse-jee-juno-SR1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/scripts/ -Declipse.pdebuild.templates=/C:/Users/anlgad/Desktop/Samrudhdi/eclipse-jee-juno-SR1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/templates/ -Dant.home=C:\Ant\apache-ant-1.9.7 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\Users\anlgad\Desktop\Samrudhdi\Devops\Javaeg\Number_Test\build.xml" />
 
           <property name="java.class.path" value="C:\Ant\apache-ant-1.9.7\lib\ant-antlr.jar;C:\Ant\apache-ant-1.9.7\lib\ant-apache-bcel.jar;C:\Ant\apache-ant-1.9.7\lib\ant-apache-bsf.jar;C:\Ant\apache-ant-1.9.7\lib\ant-apache-log4j.jar;C:\Ant\apache-ant-1.9.7\lib\ant-apache-oro.jar;C:\Ant\apache-ant-1.9.7\lib\ant-apache-regexp.jar;C:\Ant\apache-ant-1.9.7\lib\ant-apache-resolver.jar;C:\Ant\apache-ant-1.9.7\lib\ant-apache-xalan2.jar;C:\Ant\apache-ant-1.9.7\lib\ant-commons-logging.jar;C:\Ant\apache-ant-1.9.7\lib\ant-commons-net.jar;C:\Ant\apache-ant-1.9.7\lib\ant-jai.jar;C:\Ant\apache-ant-1.9.7\lib\ant-javamail.jar;C:\Ant\apache-ant-1.9.7\lib\ant-jdepend.jar;C:\Ant\apache-ant-1.9.7\lib\ant-jmf.jar;C:\Ant\apache-ant-1.9.7\lib\ant-jsch.jar;C:\Ant\apache-ant-1.9.7\lib\ant-junit.jar;C:\Ant\apache-ant-1.9.7\lib\ant-junit4.jar;C:\Ant\apache-ant-1.9.7\lib\ant-launcher.jar;C:\Ant\apache-ant-1.9.7\lib\ant-netrexx.jar;C:\Ant\apache-ant-1.9.7\lib\ant-swing.jar;C:\Ant\apache-ant-1.9.7\lib\ant-testutil.jar;C:\Ant\apache-ant-1.9.7\lib\ant.jar;C:\Users\anlgad\Desktop\Samrudhdi\eclipse-jee-juno-SR1-win32-x86_64\eclipse\configuration\org.eclipse.osgi\bundles\57\1\.cp\lib\antdebug.jar;C:\Users\anlgad\Desktop\Samrudhdi\eclipse-jee-juno-SR1-win32-x86_64\eclipse\configuration\org.eclipse.osgi\bundles\57\1\.cp\lib\remote.jar;C:\Users\anlgad\Desktop\Samrudhdi\eclipse-jee-juno-SR1-win32-x86_64\eclipse\configuration\org.eclipse.osgi\bundles\58\1\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.8.0_111\lib\tools.jar;C:\Users\anlgad\Desktop\Samrudhdi\eclipse-jee-juno-SR1-win32-x86_64\eclipse\plugins\org.eclipse.swt.win32.win32.x86_64_3.100.1.v4234e.jar" />
 
@@ -497,7 +497,7 @@ Hello World
 
       </properties>
 
-      <testcase classname="TestRunner" name="printResult" time="0.063" />
+      <testcase classname="TestRunner" name="printResult" time="0.039" />
 
       <system-out><![CDATA[Inside testPrintMessage
 Hello World
