@@ -18,7 +18,7 @@
 
 	
     <path id="Number_Test.classpath">
-        <pathelement location="${build.dir}"/>
+        <pathelement location="${classes.dir}"/>
     </path>
 	
 	<path id = "classpath.test">
@@ -31,6 +31,7 @@
     <target name="init">
         <mkdir dir="${build.dir}"/>
     	<mkdir dir="${test.dir}"/>
+    	<mkdir dir="${classes.dir}"/>
     </target>
     
 	<target name="clean">
@@ -40,14 +41,14 @@
     
     <target name="build" depends="init">
         <echo message="${ant.project.name}: ${ant.file}"/>
-        <javac srcdir="${src.dir}" debug="ON" destdir="${build.dir}" includeantruntime="false" verbose="${full-compile}" >
+        <javac srcdir="${src.dir}" debug="ON" destdir="${classes.dir}" includeantruntime="false" verbose="${full-compile}" >
             <classpath refid="classpath.test"/>
         </javac>
     </target>
 	
 	<target name="jar" depends="build">
 	        <mkdir dir="${jar.dir}"/>
-	        <jar destfile="${jar.dir}/${ant.project.name}.jar" basedir="${build.dir}">
+	        <jar destfile="${jar.dir}/${ant.project.name}.jar" basedir="${classes.dir}">
 	            <manifest>
 	                <attribute name="Main-Class" value="${main-class}"/>
 	            </manifest>
