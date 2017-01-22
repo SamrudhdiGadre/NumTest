@@ -5,6 +5,8 @@
               directory with the processing instruction <?eclipse.ant.import?>
               as the first entry and export the buildfile again. -->
 
+<!-- Adding general comments -->
+
 <project basedir="." default="jar" name="Number_Test">
     <property environment="env"/>
     <property name="debuglevel" value="source,lines,vars"/>
