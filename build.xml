@@ -5,7 +5,7 @@
               directory with the processing instruction <?eclipse.ant.import?>
               as the first entry and export the buildfile again. -->
 
-<project basedir="." default="test-reports" name="Number_Test">
+<project basedir="." default="jar" name="Number_Test">
     <property environment="env"/>
     <property name="debuglevel" value="source,lines,vars"/>
     <property name="build.dir" value="bin"/>
