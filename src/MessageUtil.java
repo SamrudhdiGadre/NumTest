@@ -6,7 +6,7 @@ public class MessageUtil {
 	      this.message = message;
 	   }
 	      
-	   // prints the message
+	   // prints the message, adding comments
 	   public String printMessage(){
 	      System.out.println(message);
 	      return message;
