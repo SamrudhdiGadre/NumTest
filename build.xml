@@ -44,7 +44,7 @@
     
     <target name="build" depends="init">
         <echo message="${ant.project.name}: ${ant.file}"/>
-        <javac srcdir="${src.dir}" debug="ON" destdir="${classes.dir}" includeantruntime="false" verbose="${full-compile}" >
+        <javac srcdir="${src.dir}" debug="ON" destdir="${classes.dir}" includeantruntime="false" verbose="${full-compile}" compiler="modern" >
             <classpath refid="classpath.test"/>
         </javac>
     </target>
